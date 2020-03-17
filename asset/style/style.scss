@@ -225,22 +225,24 @@ body {
   .header-page {
     z-index: 2;
     position: absolute;
-    width: 500px;
+    width: 100%;
     left: 50%;
-    margin-left: -250px;
+    margin-left: -50%;
     background-color: transparent; 
-    background-image: none;
   }
+
+  .header__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .header__box__menu {
     color: red;
     z-index: 2;
   }
+
 }
 
-.header__box {
-  display: flex;
-  justify-content: space-between;
-}
 .box {
   width: 100vw;
   height: 100vh;
@@ -259,7 +261,8 @@ body {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: #f1f1f1;
+  margin-top: -100px;
 }
 
 .sub-title {
