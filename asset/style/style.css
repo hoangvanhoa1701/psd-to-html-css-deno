@@ -1,0 +1,329 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: Arial;
+  color: #66bb6a;
+}
+
+/****************** START h- custom style hoanghoa by Nova******************/
+.h-overflowHidden {
+  overflow: hidden;
+}
+
+.h-positionRelative {
+  position: relative;
+}
+
+.h-positionAbsolute {
+  position: absolute;
+}
+
+.h-hAuto {
+  height: auto;
+}
+
+.h-wAuto {
+  width: auto;
+}
+
+.h-cursorPointer {
+  cursor: pointer;
+}
+
+.h-boxImgTransform {
+  overflow: hidden;
+}
+
+.h-boxImgTransform:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.h-boxImgTransform img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.h-boxImgTransform .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h-transitionAll {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.h-textCenter {
+  text-align: center;
+}
+
+.h-opacity-0 {
+  opacity: 0;
+}
+
+.h-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.h-img-small {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.h-textOverLay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: -4px 5px 14px #333333;
+}
+
+.h-transform-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.h-cardImageHover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #333333;
+  color: #ffffff;
+  font-size: 23px;
+  border: none;
+  height: 77px;
+}
+
+.h-cardImageHover .iconNomal {
+  display: unset;
+}
+
+.h-cardImageHover .iconHover {
+  display: none;
+}
+
+.h-cardImageHover:hover {
+  color: #9b0b0b;
+  cursor: pointer;
+}
+
+.h-cardImageHover:hover .iconNomal {
+  display: none;
+}
+
+.h-cardImageHover:hover .iconHover {
+  display: unset;
+}
+
+.h-container {
+  margin: 0 auto;
+  padding: 12px 0;
+  max-width: 1440px;
+  width: 95%;
+}
+
+@media (min-width: 576px) {
+  .h-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h-container {
+    max-width: 1140px;
+  }
+}
+
+.h-container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/****************** END h- custom style hoanghoa by Nova******************/
+#pagepiling .section {
+  text-align: center;
+}
+
+#pagepiling .section--1 {
+  background-size: cover;
+}
+
+#pagepiling .section--2 {
+  background-color: #66bb6a;
+  background-size: cover;
+}
+
+#pagepiling .section--3 {
+  background-color: #a89aa5;
+  background-size: cover;
+}
+
+#pagepiling .section--4 {
+  background: url("/asset/image/video-background-dep_110344690.jpg");
+  background-size: cover;
+}
+
+.home-page .header-page {
+  z-index: 2;
+  position: absolute;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+  background-color: transparent;
+  background-image: none;
+}
+
+.home-page .header__box__menu {
+  color: red;
+  z-index: 2;
+}
+
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1b1c27e8;
+  color: #f1f1f1;
+  mix-blend-mode: multiply;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  display: block;
+  font-size: 255px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.sub-title {
+  font-size: 60px;
+  mix-blend-mode: normal;
+  color: #f1f1f1;
+}
+
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
